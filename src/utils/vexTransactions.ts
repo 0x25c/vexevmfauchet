@@ -21,7 +21,7 @@ const api = new Api({ rpc, signatureProvider, textDecoder: new TextDecoder(), te
             data: {
               from: 'appnetwork',
               to: 'vex.evm',
-              quantity: '1.1000 VEX',
+              quantity: '2.0000 VEX',
               memo: textAfterCommand,
             },
           }]
