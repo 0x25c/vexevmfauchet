@@ -39,7 +39,7 @@ export class TelegramBotService {
     
     this.bot.onText(/\/rpc/, (msg) => {
         const chatId = msg.chat.id;
-        // Respond to the '/rpc' command with HTML formatting
+        // Respond to the '/rpc' command with MarkdownV2 formatting
         this.bot.sendMessage(chatId, rpcInfoMsg, { parse_mode: 'MarkdownV2' });
     });
 
