@@ -33,7 +33,7 @@ export class TelegramBotService {
     this.bot.onText(/\/help/, (msg) => {
         const chatId = msg.chat.id;
         // Respond to the '/start' command
-        this.bot.sendMessage(chatId, 'Hello dear!, im here 😊\n\ntype: /faucet 0x2YourEvmAddreess for get some evm TestNet\n\ntype: /rpc for get info network\n\ntype: /help if u need help\n\nThere is a mistake? you can contact my creator\n@yuda0x25c');
+        this.bot.sendMessage(chatId, 'Hello dear!, im here 😊\n\ntype: /faucet 0x2YourEvmAddreess for get some evm TestNet\n\ntype: /rpc for get info network\n\ntype: /help if u need help\n\nThere is a mistake?\nyou can contact: @yuda0x25c');
       });
      const rpcInfoMsg = "*RPC Info:*\n\n*Network: VEX EVM TESTNET*\nRPC URL: `https://testnet.vexascan.com/evmapi`\nchainID: 5522\nCurrency symbol: `VEX`\nBlock explorer URL: `https://testnet.vexascan.com/evmexplorer`\n\n*Vex Native TestNet*\nNetwork: VEX Native TestNet\nRPC: `http://194.163.139.217:8080`\nchainID: `adb373e86715ca39e81f1804a8c7f4029a5d2402d47dd451d9c595d46abba792`\nBlock Explorer URL: `https://testnet.vexascan.com`\n\n";
     
